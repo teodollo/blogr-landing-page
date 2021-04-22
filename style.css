@@ -5,7 +5,10 @@ body{
 header{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    background: wheat;
+    background: hsl(356, 100%, 66%);
+    background-image: url("images/pattern-intro.svg");
+    background-size: 197%;
+    background-position: 27% 51%;
     border-bottom-left-radius: 52px;
     padding-bottom: 100px;
 }
