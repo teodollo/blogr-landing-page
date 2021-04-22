@@ -1,0 +1,68 @@
+body{
+    background: wheat;
+}
+
+/*header{
+    margin-top: 5%;
+}*/
+
+nav{
+    margin: 3% 5% 0 5%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    float: left;
+}
+
+.navbar .dropbtn{
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.dropbtn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.dropbtn:hover{
+    text-decoration: underline white;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.sign-in{
+   justify-content: right;
+   text-align: right;
+   margin-right: 5%;
+}
+
+.login{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+.sign-up{
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px 37px;
+}
