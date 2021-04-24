@@ -1,14 +1,14 @@
 body{
     margin: 0;
+    font-family: 'Overpass', sans-serif;
 }
 
 header{
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    background: hsl(356, 100%, 66%);
-    background-image: url("images/pattern-intro.svg");
+    grid-template-rows: 1fr 1.5fr;
+    background: url("images/pattern-intro.svg"), linear-gradient(to right, hsl(13, 100%, 72%) , hsl(353, 100%, 62%));
     background-size: 197%;
-    background-position: 27% 51%;
+    background-position: 32% 49%;
     border-bottom-left-radius: 52px;
     padding-bottom: 100px;
 }
@@ -18,7 +18,7 @@ nav{
     margin: 3% 8% 0 8%;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 2.5fr 3.7fr;
+    grid-template-columns: 1fr 2.5fr 2.7fr;
 }
 
 .logo{
@@ -26,7 +26,7 @@ nav{
 }
 
 .navbar{
-    margin-top: 3.5%;
+    margin-top: 2.5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     float: left;
@@ -91,14 +91,23 @@ nav a{
     outline: none;
     background-color: transparent;
     color: white;
+    font-weight: bold;
 }
 
 .sign-up{
     border: none;
     outline: none;
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
     background-color: white;
     border-radius: 25px;
     padding: 15px 37px;
+}
+
+.sign-up:hover{
+    background-color: hsl(355, 100%, 74%);
+    color: white;
+    cursor: pointer;
 }
 
 .head{
@@ -107,4 +116,57 @@ nav a{
 
 .head-text h1{
     color: white;
+    margin: 2%;
+}
+
+.head-text p{
+    color: white;
+    margin: 0;
+}
+
+.learn{
+    margin-top: 4%;
+}
+
+.learn-button{
+    padding: 10px 13px;
+    border-radius: 29px;
+    border: none;
+    margin: 4px;
+}
+
+#start-free{
+    background-color: white;
+    border: white 2px solid;
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+}
+
+#learn-more{
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#start-free:hover{
+  background-color: hsl(355, 100%, 74%);
+  border: hsl(355, 100%, 74%) 2px solid;
+  color: white;
+  cursor: pointer;
+}
+
+#learn-more:hover{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    cursor: pointer;
+}
+
+.future{
+
+}
+
+.future-head{
+    text-align: center;
 }
