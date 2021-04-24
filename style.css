@@ -166,7 +166,6 @@ nav a{
 .future{
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 12% 500px;
 }
 
 .future-head{
@@ -176,5 +175,4 @@ nav a{
 
 .future-paragraph{
   display: grid;
-  grid-template-columns: 50% 50%;
 }
