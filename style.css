@@ -45,11 +45,16 @@ nav a{
     outline: none;
     border: none;
     color: white;
+    width:75%;
 }
 
 .dropbtn:hover{
     text-decoration: underline white;
     cursor: pointer;
+}
+
+.dropbtn img{
+    margin-left: 9%;
 }
 
 .dropdown-content {
@@ -321,6 +326,10 @@ nav a{
 
 
   @media screen and (max-width: 1240px) {
+      .dropbtn{
+          width: 77%;
+      }
+
       .future{
           grid-template-rows: 1.6fr 1.5fr 25vh;
           background-position: 48vw 43px;
