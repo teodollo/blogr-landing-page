@@ -94,6 +94,10 @@ nav a{
     font-weight: bold;
 }
 
+.login:hover{
+    cursor: pointer;
+}
+
 .sign-up{
     border: none;
     outline: none;
@@ -166,12 +170,13 @@ nav a{
 .future{
   background: url("images/illustration-editor-desktop.svg");
   background-repeat: no-repeat;
-  background-position: 154% 50%;
-  background-size: 64%;
+  background-position: 58vw 0px;
+  background-size: 49em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1.5fr 2.3fr;
+  grid-template-rows: 1fr 1.5fr 41vh;
   margin: auto;
+  margin-top: 4%;
   color: hsl(207, 13%, 34%);
 }
 
@@ -188,17 +193,19 @@ nav a{
 .future-paragraph-1{
   grid-row: 2;
   grid-column: 1;
-  margin-left: 11%;
-  max-width: 91%;
+  margin-left: 15%;
+  max-width: 77%;
   font-size: 16px;
+  
 }
 
 .future-paragraph-2{
     grid-row: 3;
     grid-column: 1;
-    margin-left: 11%;
-    max-width: 91%;
+    margin-left: 15%;
+    max-width: 77%;
     font-size: 16px;
+    
   }
 
   .future-img{
@@ -208,4 +215,30 @@ nav a{
 
   .future-img img{
       max-width: 50%;
+  }
+
+  .state-art{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: url("images/bg-pattern-circles.svg"), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+      background-repeat: no-repeat;
+      background-position: -44% 85%;
+      max-height: 20em;
+      border-bottom-left-radius: 55px;
+      border-top-right-radius: 55px;
+  }
+
+  .state-art img{
+      max-width: 28em;
+      margin-left: auto;
+      position: relative;
+      bottom: 6vh;
+  }
+
+  .state-text{
+    align-items: center;
+    margin: auto;
+    margin-bottom: 13em;
+    max-width: 32em;
+    color: white;
   }
