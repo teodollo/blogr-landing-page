@@ -174,7 +174,7 @@ nav a{
   background-size: 49em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1.5fr 41vh;
+  grid-template-rows: 1.6fr 1.5fr 41vh;
   margin: auto;
   margin-top: 4%;
   color: hsl(207, 13%, 34%);
@@ -219,7 +219,7 @@ nav a{
 
   .state-art{
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1.6fr;
       background: url("images/bg-pattern-circles.svg"), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
       background-repeat: no-repeat;
       background-position: -44% 85%;
@@ -245,11 +245,11 @@ nav a{
 
   .free-open-simple{
       display: grid;
-      grid-template-columns: 0.8fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 19em 27em;
       /*background: url("images/illustration-laptop-desktop.svg");*/
       background-repeat: no-repeat;
-      margin-top: 14vh;
+      margin-top: 17vh;
       color: hsl(207, 13%, 34%);
   }
 
@@ -261,13 +261,13 @@ nav a{
   .back-image img{
       max-width: 134%;
       position: relative;
-      bottom: 6em;
-      right: 14em;
+      bottom: 7em;
+      right: 16em;
   }
   .free-open-text{
       grid-column: 2;
       grid-row: 1;
-      max-width: 66%;
+      /*max-width: 66%;*/
       margin-right: 15%;
       margin-top: 4em;
       font-size: 16px;
@@ -276,7 +276,7 @@ nav a{
   .free-open-text-2{
       grid-column: 2;
       grid-row: 2;
-      max-width: 66%;
+      /*max-width: 66%;*/
       margin-right: 15%;
       font-size: 16px;
   }
@@ -303,13 +303,39 @@ nav a{
 
   .foot-link h4{
       color:white;
+      font-size: 19px;
   }
 
   .foot-link a{
       text-decoration: none;
       color: hsl(240, 2%, 79%);
+      line-height: 1.8;
+      max-width: 5em;
   }
 
   .foot-link a:hover{
       text-decoration: underline;
+  }
+
+
+
+
+  @media screen and (max-width: 1240px) {
+      .future{
+          grid-template-rows: 1.6fr 1.5fr 25vh;
+          background-position: 48vw 43px;
+      }
+
+      .free-open-simple{
+          grid-template-rows: 13em 16em;
+          margin-top: 14vh;
+      }
+
+      .free-open-text{
+          margin-top: 0;
+      }
+
+      .back-image img{
+          right: 12em;
+      }
   }
