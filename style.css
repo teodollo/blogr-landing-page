@@ -368,10 +368,12 @@ nav a{
 
       header{
           height: 75vh;
+          padding-bottom: 0;
       }
 
       nav{
           grid-template-columns: 1fr 1fr;
+          margin: 12% 8% 0 8%;
       }
 
       .hamburger{
@@ -400,7 +402,12 @@ nav a{
       .navbar .dropbtn{
           color: black;
           float:none;
+          width: 35vw;
           font-size: 20px;
+      }
+
+      .dropbtn text{
+
       }
 
       .dropbtn img{
@@ -411,6 +418,8 @@ nav a{
 
       .dropbtn img.mobile-arrow{
           display:inline-block;
+          float: right;
+          margin-top: 8px;
         
       }
 
@@ -422,7 +431,8 @@ nav a{
           margin-right: auto;
           margin-top: 0;
           width: 100%;
-          max-height: 83px;
+          max-height: 9em;
+          row-gap: 27px;
           justify-content: space-around;
           text-align: center;
       }
@@ -452,7 +462,7 @@ nav a{
           border-radius: 10px;
           z-index: 1;
           display: grid;
-          min-height: 38vh;
+          min-height: 66vh;
           grid-template-rows: 2em 22em 6.8em;
       }
 
@@ -470,10 +480,11 @@ nav a{
 
       .dropdown-content a{
           text-align: center;
+          font-weight: bold;
       }
 
       .dropdown-content a:hover {
-        font-weight:300;
+        font-weight:bold;
       }
 
       .dropdown:hover .dropdown-content {
