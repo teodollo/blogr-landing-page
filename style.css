@@ -44,6 +44,10 @@ nav a{
     display: none;
 }
 
+.close{
+    display: none;
+}
+
 .dropbtn{
     background-color: transparent;
     outline: none;
@@ -326,10 +330,6 @@ nav a{
       text-decoration: underline;
   }
 
-  .all{
-
-  }
-
   .mobile-arrow{
       display: none;
   }
@@ -381,6 +381,11 @@ nav a{
           margin-left: auto;
       }
 
+      .close{
+          display: none;
+          margin-left: auto;
+      }
+
       .navbar{
           margin-left: auto;
           margin-right: auto;
@@ -395,19 +400,11 @@ nav a{
           border-top-left-radius: 10px;
       }
 
-      .dropdown{
-         
-      }
-
       .navbar .dropbtn{
           color: black;
           float:none;
           width: 35vw;
           font-size: 20px;
-      }
-
-      .dropbtn text{
-
       }
 
       .dropbtn img{
@@ -452,7 +449,7 @@ nav a{
       }
 
       .head-text{
-          display: none;
+          display: block;
       }
 
       .all{
@@ -461,7 +458,7 @@ nav a{
           background-color: white;
           border-radius: 10px;
           z-index: 1;
-          display: grid;
+          display: none;
           margin-top: 2vh;
           min-height: 33em;
           grid-template-rows: 2em 22em 6.8em;
@@ -490,9 +487,5 @@ nav a{
 
       .dropdown:hover .dropdown-content {
         display: 0;
-      }
-
-      .dropdown:active .dropdown-content{
-          display:block;
       }
   }
