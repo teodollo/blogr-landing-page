@@ -462,7 +462,8 @@ nav a{
           border-radius: 10px;
           z-index: 1;
           display: grid;
-          min-height: 66vh;
+          margin-top: 2vh;
+          min-height: 33em;
           grid-template-rows: 2em 22em 6.8em;
       }
 
