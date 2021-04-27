@@ -33,7 +33,7 @@ header.addEventListener('touchstart', (e) =>{
    const dropDown = e.target.nextElementSibling;
    const arrow = e.target.children[1];
 
-   if (e.target.className === "dropbtn") {
+   if (e.target.className === "dropbtn" ) {
        for (let i = 0; i < button.length; i++){
            if (button[i].nextElementSibling.style.display === "block") {
               button[i].nextElementSibling.style.display = "none";
