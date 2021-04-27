@@ -496,7 +496,7 @@ nav a{
 
       .future{
           background: none;
-          grid-template-rows: 7em 3fr 2.5fr 57vh;
+          grid-template-rows: 7em 3fr 3fr 57vh;
           grid-template-columns: 1fr;
           text-align: center;
       }
