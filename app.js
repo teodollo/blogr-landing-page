@@ -40,6 +40,8 @@ header.addEventListener('touchstart', (e) =>{
            }
        }
         dropDown.style.display = "block";
-        arrow.style.transfrom = "rotate(180deg)";
+        arrow.style.transfrom = "rotate(7deg)";
+        
    }
-})
+
+});
