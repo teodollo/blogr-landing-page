@@ -675,6 +675,10 @@ nav a{
           bottom:11em;
       }
 
+      .future{
+          grid-template-rows: 18vh 43vh 42vh 60vh;
+      }
+
       .laptop-mobile{
           max-width: 375px;
       }
