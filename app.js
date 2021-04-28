@@ -40,7 +40,6 @@ header.addEventListener('touchstart',  (e) =>{
        for (let i = 0; i < button.length; i++){
            if (button[i].nextElementSibling.style.display === "block") {
               button[i].nextElementSibling.style.display = "none";
-              arrow.style.transform = "rotate(180deg)";
            }
            if (button[i].childNodes[2].getAttribute("style") === "transform: rotate(180deg);") {
                 button[i].childNodes[2].style.transform = "rotate(360deg)";
