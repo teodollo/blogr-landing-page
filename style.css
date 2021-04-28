@@ -400,7 +400,7 @@ nav a{
       
   }
 
-  @media screen and (max-width:760px) {
+  @media screen and (max-width:768px) {
       .state-art img{
           max-width: 56vw;
       }
@@ -447,7 +447,8 @@ nav a{
       }
 
       .navbar .dropbtn{
-          color: black;
+          color: hsl(208, 49%, 24%);
+          font-weight: bold;
           float:none;
           width: 35vw;
           font-size: 20px;
@@ -525,6 +526,7 @@ nav a{
       .dropdown-content a{
           text-align: center;
           font-weight: bold;
+          color: hsl(207, 13%, 34%);
       }
 
       .dropdown-content a:hover {
