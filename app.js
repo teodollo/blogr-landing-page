@@ -4,7 +4,6 @@ const header = document.querySelector("header");
 const all = document.getElementsByClassName("all");
 const headText = document.getElementsByClassName("head-text");
 const button = document.getElementsByClassName("dropbtn");
-//const arrow = document.getElementsByClassName("mobile-arrow");
 
 
 
