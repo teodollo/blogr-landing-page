@@ -4,6 +4,7 @@ const header = document.querySelector("header");
 const all = document.getElementsByClassName("all");
 const headText = document.getElementsByClassName("head-text");
 const button = document.getElementsByClassName("dropbtn");
+//const arrow = document.getElementsByClassName("mobile-arrow");
 
 
 
@@ -31,16 +32,23 @@ header.addEventListener('touchstart', (e) =>{
    }
 
    const dropDown = e.target.nextElementSibling;
-   const arrow = e.target.children[1];
+
+   
 
    if (e.target.className === "dropbtn" ) {
+      const arrow = e.target.childNodes[2];
        for (let i = 0; i < button.length; i++){
            if (button[i].nextElementSibling.style.display === "block") {
               button[i].nextElementSibling.style.display = "none";
+              arrow.style.transform = "rotate(180deg)";
+           }
+           if (button[i].childNodes[2].getAttribute("style") === "transform: rotate(180deg);") {
+                button[i].childNodes[2].style.transform = "rotate(360deg)";
            }
        }
         dropDown.style.display = "block";
-        arrow.style.transfrom = "rotate(7deg)";
+
+        arrow.style.transform = "rotate(180deg)";
         
    }
 
